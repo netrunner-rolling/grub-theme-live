@@ -1,13 +1,19 @@
-Version=17.0.1
+Version=17.1.1
 
 PREFIX = /usr/local
+
+CFG = $(wildcard cfg/*.cfg)
 
 THEME = \
 	$(wildcard netrunner-live/*.png) \
 	netrunner-live/theme.txt \
-	netrunner-live/u_vga16_16.pf2
+	netrunner-live/*.pf2
 
 ICONS= $(wildcard netrunner-live/icons/*.png)
+
+TZ = $(wildcard tz/*)
+
+LOCALES = $(wildcard locales/*)
 
 install:
 	install -dm0755 $(DESTDIR)$(PREFIX)/share/grub/themes/netrunner-live
