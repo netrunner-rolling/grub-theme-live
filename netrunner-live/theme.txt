@@ -1,7 +1,7 @@
 title-text: ""
 title-font: "DejaVu Sans Regular 48"
 message-font: "Terminus 16"
-message-color: "#3daee9"
+message-color: "#7f8c8d"
 message-bg-color: "#4d4d4d"
 desktop-color: "#000000"
 desktop-image: "background.png"
